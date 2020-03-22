@@ -1,6 +1,6 @@
 {
     "name": "Unifi UDM API Proxy",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "slug": "unifi-udm-api-proxy",
     "description": "A compatibility shim to support accessing the new UnifiOs API.",
     "url": "https://github.com/Silvenga/unifi-udm-api-proxy-ha",
