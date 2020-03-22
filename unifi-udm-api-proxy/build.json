@@ -1,0 +1,8 @@
+{
+    "build_from": {
+        "aarch64": "silvenga/unifi-udm-api-proxy:1.4.0-arm64v8",
+        "amd64": "silvenga/unifi-udm-api-proxy:1.4.0",
+        "armv7": "silvenga/unifi-udm-api-proxy:1.4.0-arm32v7"
+    },
+    "args": {}
+}

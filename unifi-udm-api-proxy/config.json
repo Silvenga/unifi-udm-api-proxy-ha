@@ -1,0 +1,25 @@
+{
+    "name": "Unifi UDM API Proxy",
+    "version": "1.4.0",
+    "slug": "unifi-udm-api-proxy",
+    "description": "A compatibility shim to support accessing the new UnifiOs API.",
+    "url": "https://github.com/Silvenga/unifi-udm-api-proxy-ha",
+    "startup": "services",
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armv7"
+    ],
+    "boot": "auto",
+    "ports": {
+        "80/tcp": 80,
+        "443/tcp": 443
+    },
+    "ports_description": {
+        "80/tcp": "Proxy Endpoint (http)",
+        "443/tcp": "Proxy Endpoint (https)"
+    },
+    "environment": {
+        "HASSIO": "true"
+    }
+}
