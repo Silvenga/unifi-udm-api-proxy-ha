@@ -11,14 +11,6 @@
         "armv7"
     ],
     "boot": "auto",
-    "ports": {
-        "80/tcp": 80,
-        "443/tcp": 443
-    },
-    "ports_description": {
-        "80/tcp": "Proxy Endpoint (http)",
-        "443/tcp": "Proxy Endpoint (https)"
-    },
     "environment": {
         "HASSIO": "true"
     },
