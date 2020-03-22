@@ -15,5 +15,8 @@
         "HASSIO": "true"
     },
     "options": {},
-    "schema": {}
+    "schema": {},
+    "hassio_api": false,
+    "homeassistant_api": false,
+    "auth_api": false
 }
