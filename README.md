@@ -27,8 +27,8 @@ udm:
 
 The add-on will be accessible (from within Home-Assistant's network) on:
 ```
-http://61535f70_unifi-udm-api-proxy:80
-https://61535f70_unifi-udm-api-proxy:443
+http://61535f70-unifi-udm-api-proxy:80
+https://61535f70-unifi-udm-api-proxy:443
 ```
 
 ## Attribution
