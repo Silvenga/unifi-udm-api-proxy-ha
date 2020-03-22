@@ -23,8 +23,5 @@
         "udm": {
             "uri": "url"
         }
-    },
-    "hassio_api": false,
-    "homeassistant_api": false,
-    "auth_api": false
+    }
 }
