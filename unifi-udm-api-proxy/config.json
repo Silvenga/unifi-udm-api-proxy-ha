@@ -14,8 +14,16 @@
     "environment": {
         "HASSIO": "true"
     },
-    "options": {},
-    "schema": {},
+    "options": {
+        "udm": {
+            "uri": null
+        }
+    },
+    "schema": {
+        "udm": {
+            "uri": "url"
+        }
+    },
     "hassio_api": false,
     "homeassistant_api": false,
     "auth_api": false
