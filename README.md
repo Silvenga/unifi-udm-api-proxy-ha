@@ -25,8 +25,10 @@ udm:
 
 - Start add-on, and point Home-Assistant integrations to the add-on.
 
+The add-on will be accessible (from within Home-Assistant's network) on:
 ```
-https://61535f70_unifi-udm-api-proxy
+http://61535f70_unifi-udm-api-proxy:80
+https://61535f70_unifi-udm-api-proxy:443
 ```
 
 ## Attribution
