@@ -15,5 +15,6 @@ LABEL \
     maintainer="Mark Lopez (Silvenga) <m+homeassistant@silvenga.com>"
 
 ENV ASPNETCORE_ENVIRONMENT=HASSIO
+ENV DATABASE=/data/data.db
 
 ENTRYPOINT [ "bash", "/entrypoint.sh" ]
